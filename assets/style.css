@@ -1,0 +1,26 @@
+body{
+	background: #F1F3FD;
+}
+
+.logo{
+	width: 100px;
+	height: 93px;
+}
+a{}
+.header-top{
+	background: #767577;
+}
+.navbar-inverse {
+    background-color: #E9E7E9;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #353030;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #0e86cc;
+    background-color: transparent;
+}
+.navbar {
+    border-radius: 0px;
+}
