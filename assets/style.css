@@ -1,12 +1,16 @@
 body{
 	background: #FFE972;
+    font-family: tahoma, sans-serif;
 }
 
 .logo{
 	width: 100px;
 	height: 93px;
 }
-a{}
+a {
+    color: #fcc00c;
+    text-decoration: none;
+}
 .header-top{
 	background: #767577;
 }
@@ -23,12 +27,17 @@ a{}
 }
 .navbar {
     border-radius: 0px;
+    margin-bottom: 1px;
+}
+.ourslider {
+    background: #d9edf7;
 }
 .sidebar-content{
     background-color: #fff;
 }
-.sidebar{
+.sidebar {
     padding-left: 20px;
+    padding-right: 20px;
 }
 .sidebar h3 {
     border: 1px solid gray;
@@ -44,4 +53,24 @@ a{}
     background: #FCEAD6;
     padding: 10px;
     border-left: 5px solid gray;
+}
+.footer-top {
+    padding: 50px;
+    background: #FCEAD6;
+}
+.footer-bottom {
+    background: #767577;
+    padding: 20px;
+}
+.add-comment {
+    margin-top: 50px;
+    padding: 5px;
+}
+.see-comment {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    background: aliceblue;
+}
+.sub-comment{
+    margin-left: 50px;
 }
